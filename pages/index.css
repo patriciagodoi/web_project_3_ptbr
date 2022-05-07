@@ -1,62 +1,35 @@
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Regular.woff);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-SemiBold.woff);
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(../fonts/Inter-Black.woff);
-  font-weight: 900;
-}
-
-.page {
-  background-color: #2a2c2f;
-  font-family: "Inter", Arial, sans-serif;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo {
-  width: 270px;
-  height: 70px;
-  margin: 34px auto 0px;
-}
-
-.lead {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 984px;
-  height: 983px;
-  left: 148px;
-  top: 194px;
-}
-
-.lead__title {
-  width: 793px;
-  height: 200px;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 104%;
-  text-align: center;
-  margin: 90px 0 32px;
-}
-
-.lead__subtitle {
-  width: 720px;
-  height: 72px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 120%;
-  text-align: center;
-  margin: 0px 0px 64px;
-}
+@import url(../blocks/page/page.css); /*bloco page*/
+@import url(../blocks/logo/logo.css); /*bloco logo*/
+/*importa bloco lead e seus elementos*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+/*importa bloco intro e seus elementos*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__quote/intro__quote.css);
+@import url(../blocks/intro/__quote-author/intro__quote-author.css);
+@import url(../blocks/intro/__text/intro__text.css);
+/*importa bloco photo-grid e elemento*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/places/places.css); /*bloco places*/
+/*importa bloco place e seus elementos*/
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-heading/place__website-heading.css);
+@import url(../blocks/place/__website-artist/place__website-artist.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__frame/place__frame.css);
+/*importa bloco cover e seus elementos*/
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__frame/cover__frame.css);
+/*importa bloco footer e elemento*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

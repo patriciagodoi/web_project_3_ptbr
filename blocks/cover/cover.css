@@ -1,0 +1,27 @@
+.cover {
+  max-width: 1184px;
+  height: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../../images/cover__background.png) rgba(42, 44, 47, 0.3);
+  background-size: cover;
+  background-blend-mode: multiply;
+  transition: background 2s;
+}
+
+@media screen {
+  .cover:hover {
+    background: url(../../images/cover__background.png) rgba(42, 44, 47, 0.8);
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+}
+
+@media (max-width: 649px) and (min-width: 319px) {
+  .cover {
+    height: 254px;
+    justify-content: center;
+  }
+}

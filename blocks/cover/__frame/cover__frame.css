@@ -1,0 +1,31 @@
+.cover__frame {
+  background-color: #0278fe;
+  margin: 32px 0px 0px;
+  width: 191px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 1s;
+}
+
+.cover__frame a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen {
+  .cover__frame:hover {
+    background-color: #0063d2;
+  }
+}
+
+@media (max-width: 649px) and (min-width: 319px) {
+  .cover__frame {
+    margin: 16px 0px 0px;
+  }
+}
