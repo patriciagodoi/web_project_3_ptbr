@@ -11,4 +11,4 @@ O projeto "De Pátria para Pátria" mostra as cidades de origem de alguns funcio
 
 **GitHub Pages**
 
-Clique [aqui]() para acessar o link do GitHub Pages.
+Clique [aqui](https://patriciagodoi.github.io/web_project_3_ptbr/) para acessar o link do GitHub Pages.
